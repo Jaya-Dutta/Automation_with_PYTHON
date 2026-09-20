@@ -1,0 +1,9 @@
+﻿environment: "qa"
+
+api:
+  base_url: "https://dummyjson.com"
+  timeout: 10
+
+authentication:
+  login_endpoint: "/auth/login"
+  me_endpoint: "/auth/me"

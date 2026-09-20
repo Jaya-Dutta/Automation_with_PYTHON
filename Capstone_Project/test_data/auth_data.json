@@ -1,0 +1,10 @@
+﻿{
+    "valid_user": {
+        "username_env": "DUMMYJSON_USERNAME",
+        "password_env": "DUMMYJSON_PASSWORD"
+    },
+    "invalid_user": {
+        "username": "invalid_user",
+        "password": "invalid_password"
+    }
+}

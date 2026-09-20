@@ -1,0 +1,14 @@
+﻿{
+    "create_user": {
+        "firstName": "Test",
+        "lastName": "Automation",
+        "age": 25
+    },
+    "update_user": {
+        "firstName": "Updated",
+        "lastName": "Automation"
+    },
+    "patch_user": {
+        "age": 30
+    }
+}
