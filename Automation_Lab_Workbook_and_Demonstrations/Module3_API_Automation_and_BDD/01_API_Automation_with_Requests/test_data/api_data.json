@@ -1,0 +1,7 @@
+{
+    "post_payload": {
+        "title": "External Test Data",
+        "body": "Payload loaded from JSON file",
+        "userId": 1
+    }
+}
