@@ -1,0 +1,5 @@
+test_case,username,password,expected_message
+Valid Login,tomsmith,SuperSecretPassword!,You logged into a secure area!
+Invalid Username,wronguser,SuperSecretPassword!,Your username is invalid!
+Invalid Password,tomsmith,WrongPassword!,Your password is invalid!
+Both Invalid,wronguser,WrongPassword!,Your username is invalid!
