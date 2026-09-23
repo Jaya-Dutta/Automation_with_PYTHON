@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Robot Framework / Pabot generated files
+.pabotsuitenames
+Assignments/Assignment_1_Basic_Robot_Framework/reports/pabot_results/
+
+# Temporary Robot screenshot generated outside the planned screenshots folder
+Assignments/Assignment_1_Basic_Robot_Framework/reports/selenium-screenshot-*.png

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.14.7 on win32)" generated="2026-09-21T15:43:28.053201" rpa="false" schemaversion="5">
+<suite id="s1" name="Reports And Logs" source="C:\Users\mail2\Automation_with_PYTHON\Automation_Lab_Workbook_and_Demonstrations\Module4_Robot_Framework\Assignments\Assignment_1_Basic_Robot_Framework\tests\reports_and_logs.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2026-09-21T15:43:28.621040" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-09-21T15:43:56.495550" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-21T15:43:28.619817" elapsed="30.615403"/>
+</kw>
+<test id="s1-t1" name="Generate Report With Log Messages" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.240261" level="INFO">Starting the SauceDemo verification test.</msg>
+<arg>Starting the SauceDemo verification test.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.238680" elapsed="0.001938"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:43:59.265133" level="INFO">Page title is 'Swag Labs'.</msg>
+<arg>Swag Labs</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.241706" elapsed="0.023935"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.269742" level="INFO">Browser title verified successfully.</msg>
+<arg>Browser title verified successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.267310" elapsed="0.002878"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:43:59.302519" level="INFO">Current page contains element 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.272037" elapsed="0.030869"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.305928" level="INFO">Username field is present.</msg>
+<arg>Username field is present.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.304492" elapsed="0.001613"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:43:59.330591" level="INFO">Current page contains element 'id=password'.</msg>
+<arg>id=password</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.306998" elapsed="0.023978"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.332945" level="INFO">Password field is present.</msg>
+<arg>Password field is present.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.332085" elapsed="0.001015"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:43:59.366240" level="INFO">Current page contains element 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.333975" elapsed="0.032546"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.369984" level="INFO">Login button is present.</msg>
+<arg>Login button is present.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.367744" elapsed="0.002728"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-09-21T15:43:59.376234" level="INFO">Test execution completed successfully.</msg>
+<arg>Test execution completed successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.374891" elapsed="0.002138"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary" type="TEARDOWN">
+<msg time="2026-09-21T15:43:59.507790" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../screenshots/Generate%20Report%20With%20Log%20Messages.png"&gt;&lt;img src="../screenshots/Generate%20Report%20With%20Log%20Messages.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${EXECDIR}/Assignments/Assignment_1_Basic_Robot_Framework/screenshots/${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.378720" elapsed="0.129472"/>
+</kw>
+<doc>Demonstrate custom log messages and HTML reporting.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.236477" elapsed="0.272395"/>
+</test>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-09-21T15:43:59.512020" elapsed="2.479683"/>
+</kw>
+<status status="PASS" start="2026-09-21T15:43:28.057595" elapsed="33.934331"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Reports And Logs" id="s1" pass="1" fail="0" skip="0">Reports And Logs</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-09-21T15:43:56.495550" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
+</errors>
+</robot>

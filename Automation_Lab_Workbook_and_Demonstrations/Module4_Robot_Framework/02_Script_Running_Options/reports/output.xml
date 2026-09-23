@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.14.7 on win32)" generated="2026-09-21T15:00:53.104819" rpa="false" schemaversion="5">
+<suite id="s1" name="Execution Demo" source="C:\Users\mail2\Automation_with_PYTHON\Automation_Lab_Workbook_and_Demonstrations\Module4_Robot_Framework\02_Script_Running_Options\code\execution_demo.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2026-09-21T15:00:53.746852" level="INFO">Opening browser 'chrome' to base url 'https://www.selenium.dev/'.</msg>
+<arg>https://www.selenium.dev/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-21T15:00:53.745987" elapsed="4.947980"/>
+</kw>
+<test id="s1-t1" name="Verify Selenium Homepage" line="10">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:00:58.733712" level="INFO">Page title is 'Selenium'.</msg>
+<arg>Selenium</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.699341" elapsed="0.034821"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary" type="TEARDOWN">
+<msg time="2026-09-21T15:00:58.912293" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Verify%20Selenium%20Homepage.png"&gt;&lt;img src="Verify%20Selenium%20Homepage.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${EXECDIR}/02_Script_Running_Options/reports/${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.736323" elapsed="0.176326"/>
+</kw>
+<doc>Verify Selenium homepage using a standalone execution demo.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.696062" elapsed="0.217262"/>
+</test>
+<test id="s1-t2" name="Verify Selenium Page Content" line="14">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-09-21T15:00:58.977706" level="INFO">Current page contains text 'Selenium'.</msg>
+<arg>Selenium</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.916822" elapsed="0.061231"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary" type="TEARDOWN">
+<msg time="2026-09-21T15:00:59.114895" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Verify%20Selenium%20Page%20Content.png"&gt;&lt;img src="Verify%20Selenium%20Page%20Content.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>${EXECDIR}/02_Script_Running_Options/reports/${TEST NAME}.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.980051" elapsed="0.135153"/>
+</kw>
+<doc>Verify Selenium page content.</doc>
+<status status="PASS" start="2026-09-21T15:00:58.915232" elapsed="0.200650"/>
+</test>
+<kw name="Close All Browsers" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-09-21T15:00:59.118634" elapsed="2.748090"/>
+</kw>
+<status status="PASS" start="2026-09-21T15:00:53.108076" elapsed="8.758835"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Execution Demo" id="s1" pass="2" fail="0" skip="0">Execution Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
