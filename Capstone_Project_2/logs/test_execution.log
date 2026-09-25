@@ -1,0 +1,22 @@
+2026-09-25 10:19:17,725 - INFO - Framework logging test successful
+2026-09-25 10:20:50,084 - INFO - Starting test: test_valid_login
+2026-09-25 10:22:09,414 - INFO - Test completed: test_valid_login - PASS
+2026-09-25 10:22:12,074 - INFO - Browser closed: test_valid_login
+2026-09-25 10:23:03,378 - INFO - Starting test: test_product_in_cart
+2026-09-25 10:24:03,604 - INFO - Test completed: test_product_in_cart - PASS
+2026-09-25 10:24:06,153 - INFO - Browser closed: test_product_in_cart
+2026-09-25 10:24:06,158 - INFO - Starting test: test_valid_login
+2026-09-25 10:24:23,280 - INFO - Test completed: test_valid_login - PASS
+2026-09-25 10:24:25,868 - INFO - Browser closed: test_valid_login
+2026-09-25 10:24:25,872 - INFO - Starting test: test_product_search
+2026-09-25 10:25:01,364 - INFO - Test completed: test_product_search - PASS
+2026-09-25 10:25:04,014 - INFO - Browser closed: test_product_search
+2026-09-25 10:34:55,264 - INFO - Starting test: test_product_in_cart
+2026-09-25 10:35:10,670 - INFO - Test completed: test_product_in_cart - PASS
+2026-09-25 10:35:12,942 - INFO - Browser closed: test_product_in_cart
+2026-09-25 10:35:12,946 - INFO - Starting test: test_valid_login
+2026-09-25 10:35:24,604 - INFO - Test completed: test_valid_login - PASS
+2026-09-25 10:35:26,870 - INFO - Browser closed: test_valid_login
+2026-09-25 10:35:26,874 - INFO - Starting test: test_product_search
+2026-09-25 10:35:37,542 - INFO - Test completed: test_product_search - PASS
+2026-09-25 10:35:39,879 - INFO - Browser closed: test_product_search
