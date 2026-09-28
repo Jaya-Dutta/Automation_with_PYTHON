@@ -1,4 +1,0 @@
-﻿requests
-behave
-allure-behave
-PyYAML

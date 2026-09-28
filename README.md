@@ -17,7 +17,6 @@ A collection of Python automation scripts, practice exercises, training modules,
 
 * **Automation Lab Workbook & Demonstrations** — Selenium, Unit Testing, API Automation & BDD, and Robot Framework modules
 * **Capstone Project_2** — Selenium Python Automation Framework using PyTest, unittest and Page Object Model
-* **Capstone Project** — Python API Automation Framework using Requests and Behave BDD
 * **Certificates** — Training and certification records
 
 ## Technologies Covered
@@ -42,18 +41,13 @@ A modular Selenium automation framework demonstrating:
 * Headless Execution
 
 **Technologies:** Python · Selenium WebDriver · PyTest · unittest · POM
-### Capstone Project — Python API Automation Framework
-
-A Python-based API automation framework developed using **Requests and Behave BDD**, covering API authentication and User CRUD operations with reusable API clients, configuration management, test data, logging, and reporting.
-
-**Technologies:** Python · Requests · Behave BDD · Allure
 
 ##  Demonstration Videos
 
 * **Capstone Project_2** —   
 # https://drive.google.com/file/d/14MAhXESPy0O5GJscfAALQ9pjRPJfy7iV/view?usp=sharing
 
-* **Automation Training Modules** —
+* **Automation Training Modules Assesment** —
 # https://drive.google.com/file/d/14mqBMBqE2RB2_Fv1m1KlItIldvP3B7Bh/view?usp=sharing
 # https://drive.google.com/file/d/1Kq5STvlDx07hpiFrVpXrBPzsd8RjdCmU/view?usp=sharing
 # https://drive.google.com/file/d/153MeWvGOGGMqDgKDWMZ-Xm6YAK5QoQvz/view?usp=drive_link
